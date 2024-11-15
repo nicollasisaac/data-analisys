@@ -1,0 +1,82 @@
+2024-11-13 02:15:29.702 [info] 
+
+
+
+
+2024-11-13 02:15:29.724 [info] Extension host agent started.
+2024-11-13 02:15:29.738 [info] Started initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-11-13 02:15:29.901 [info] Completed initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-11-13 02:15:29.920 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-11-13 02:15:31.074 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2024-11-13 02:15:31.101 [info] Getting Manifest... github.vscode-pull-request-github
+2024-11-13 02:15:31.412 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.0","date":"2024-10-31T15:10:05.505Z"}}
+2024-11-13 02:15:32.820 [error] Could not load vsce-sign module Cannot find package 'node-ovsx-sign' imported from /ide/out/server-main.js
+2024-11-13 02:15:32.820 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2024-11-13 02:15:32.893 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.100.1-universal: github.vscode-pull-request-github
+2024-11-13 02:15:32.898 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.100.1-universal
+2024-11-13 02:15:32.911 [info] Extension installed successfully: github.vscode-pull-request-github file:///workspace/.vscode-remote/extensions/extensions.json
+2024-11-13 02:15:32.912 [info] Extension 'github.vscode-pull-request-github' v0.100.1 was successfully installed.
+2024-11-13 02:15:32.914 [info] Installing extensions...
+2024-11-13 02:15:32.943 [info] Installing extension: freecodecamp.freecodecamp-dark-vscode-theme {"isMachineScoped":true,"installPreReleaseVersion":false,"isApplicationScoped":true,"installGivenVersion":true,"installOnlyNewlyAddedFromExtensionPack":false,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.0","date":"2024-10-31T15:10:05.505Z"}}
+2024-11-13 02:15:33.002 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/freecodecamp.freecodecamp-dark-vscode-theme-1.0.0: freecodecamp.freecodecamp-dark-vscode-theme
+2024-11-13 02:15:33.005 [info] Renamed to /workspace/.vscode-remote/extensions/freecodecamp.freecodecamp-dark-vscode-theme-1.0.0
+2024-11-13 02:15:33.014 [info] Extension installed successfully: freecodecamp.freecodecamp-dark-vscode-theme file:///workspace/.vscode-remote/extensions/extensions.json
+2024-11-13 02:15:33.016 [info] Extension '64f3e9a3-d3cf-4386-a4f4-8dffe0dfeef5' was successfully installed.
+2024-11-13 02:15:37.804 [info] [192.168.194.137][5c039882][ManagementConnection] New connection established.
+2024-11-13 02:15:44.731 [info] [192.168.194.137][2d48afdf][ExtensionHostConnection] New connection established.
+2024-11-13 02:15:44.735 [info] [192.168.194.137][2d48afdf][ExtensionHostConnection] <376> Launched Extension Host Process.
+2024-11-13 02:59:53.308 [info] [192.168.194.137][4416453a][ManagementConnection] New connection established.
+2024-11-13 02:59:53.879 [info] [192.168.155.75][a18f2988][ExtensionHostConnection] New connection established.
+2024-11-13 02:59:53.896 [info] [192.168.155.75][a18f2988][ExtensionHostConnection] <2318> Launched Extension Host Process.
+2024-11-13 03:00:03.694 [warning] RequestStore#acceptReply was called without receiving a matching request 27
+2024-11-13 03:00:03.694 [warning] RequestStore#acceptReply was called without receiving a matching request 28
+2024-11-13 03:00:03.694 [warning] RequestStore#acceptReply was called without receiving a matching request 29
+2024-11-13 03:00:03.694 [warning] RequestStore#acceptReply was called without receiving a matching request 30
+2024-11-13 03:00:03.695 [warning] RequestStore#acceptReply was called without receiving a matching request 31
+2024-11-13 03:00:03.695 [warning] RequestStore#acceptReply was called without receiving a matching request 32
+2024-11-13 03:00:03.695 [warning] RequestStore#acceptReply was called without receiving a matching request 33
+2024-11-13 03:00:03.695 [warning] RequestStore#acceptReply was called without receiving a matching request 34
+2024-11-13 03:00:03.695 [warning] RequestStore#acceptReply was called without receiving a matching request 35
+2024-11-13 03:00:03.695 [warning] RequestStore#acceptReply was called without receiving a matching request 36
+2024-11-13 03:00:03.695 [warning] RequestStore#acceptReply was called without receiving a matching request 37
+2024-11-13 03:00:03.695 [warning] RequestStore#acceptReply was called without receiving a matching request 38
+2024-11-13 03:00:03.695 [warning] RequestStore#acceptReply was called without receiving a matching request 39
+2024-11-13 03:00:03.695 [warning] RequestStore#acceptReply was called without receiving a matching request 40
+2024-11-13 03:00:03.695 [warning] RequestStore#acceptReply was called without receiving a matching request 41
+2024-11-13 03:00:03.695 [warning] RequestStore#acceptReply was called without receiving a matching request 42
+2024-11-13 03:00:03.695 [warning] RequestStore#acceptReply was called without receiving a matching request 43
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 44
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 45
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 46
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 47
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 48
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 49
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 50
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 51
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 52
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 53
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 54
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 55
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 56
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 57
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 58
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 59
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 60
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 61
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 62
+2024-11-13 03:00:03.696 [warning] RequestStore#acceptReply was called without receiving a matching request 63
+2024-11-13 03:00:03.697 [warning] RequestStore#acceptReply was called without receiving a matching request 64
+2024-11-13 03:00:03.697 [warning] RequestStore#acceptReply was called without receiving a matching request 65
+2024-11-13 03:00:04.586 [info] [192.168.194.137][4416453a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-13 03:00:05.395 [error] TypeError: Cannot read properties of undefined (reading 'j')
+    at Y (/ide/node_modules/google-protobuf/google-protobuf.js:119:395)
+    at X (/ide/node_modules/google-protobuf/google-protobuf.js:117:347)
+    at W.U (/ide/node_modules/google-protobuf/google-protobuf.js:127:457)
+    at jspb.Map.serializeBinary (/ide/node_modules/@gitpod/ide-metrics-api-grpcweb/lib/index.js:1:219531)
+    at proto.ide_metrics_api.ReportErrorRequest.serializeBinaryToWriter (/ide/node_modules/@gitpod/ide-metrics-api-grpcweb/lib/idemetrics_pb.js:1342:7)
+    at proto.ide_metrics_api.ReportErrorRequest.serializeBinary (/ide/node_modules/@gitpod/ide-metrics-api-grpcweb/lib/index.js:1:250845)
+    at t.frameRequest (/ide/node_modules/@improbable-eng/grpc-web/dist/grpc-web-client.js:1:24539)
+    at e.send (/ide/node_modules/@improbable-eng/grpc-web/dist/grpc-web-client.js:1:12717)
+    at t.unary (/ide/node_modules/@improbable-eng/grpc-web/dist/grpc-web-client.js:1:24339)
+    at MetricsServiceClient.reportError (/ide/node_modules/@gitpod/ide-metrics-api-grpcweb/lib/idemetrics_pb_service.js:153:21)
+    at bP.m (file:///ide/out/server-main.js:177:7306)

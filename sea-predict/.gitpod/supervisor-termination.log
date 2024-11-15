@@ -1,0 +1,15 @@
+[380ns] Shutting down all processes 
+[184.59µs] Terminating process supervisor with PID 34 (state: S, cmdlind: [supervisor run] <nil>). 
+[15.000177326s] Terminating process didn't finish, but had to be force killed 
+[15.000687075s] Terminating process bash with PID 84 (state: S, cmdlind: [/bin/bash] <nil>). 
+[15.000687395s] Terminating process node with PID 374 (state: S, cmdlind: [/ide/node /ide/extensions/redhat.vscode-yaml/dist/languageserver.js --node-ipc --clientProcessId=320] <nil>). 
+[15.000711185s] Terminating process didn't finish, but had to be force killed 
+[15.000771405s] Terminating process didn't finish, but had to be force killed 
+[15.000834325s] Terminating process node with PID 320 (state: S, cmdlind: [/ide/node --dns-result-order=ipv4first /ide/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[15.000851775s] Terminating process node with PID 368 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20241115T032610] <nil>). 
+[15.000919725s] Terminating process didn't finish, but had to be force killed 
+[15.000935485s] Terminating process didn't finish, but had to be force killed 
+[15.001102775s] Terminating process node with PID 70 (state: S, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --install-extension https://github.com/freeCodeCamp/freecodecamp-dark-vscode-theme/releases/download/v1.0.0/freecodecamp-dark-vscode-theme-1.0.0.vsix --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[15.001224075s] Terminating process didn't finish, but had to be force killed 
+[15.016818394s] Couldn't obtain process information for PID 70. 
+[15.500990413s] Finished shutting down all processes. 

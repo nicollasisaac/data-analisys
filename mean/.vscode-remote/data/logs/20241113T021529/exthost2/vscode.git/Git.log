@@ -1,0 +1,40 @@
+2024-11-13 02:59:57.331 [info] [main] Log level: Info
+2024-11-13 02:59:57.331 [info] [main] Validating found git in: "git"
+2024-11-13 02:59:57.331 [info] [main] Using git "2.46.0" from "git"
+2024-11-13 02:59:57.331 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-13 02:59:57.331 [info] > git rev-parse --show-toplevel [9ms]
+2024-11-13 02:59:57.331 [info] > git rev-parse --git-dir --git-common-dir [137ms]
+2024-11-13 02:59:57.331 [info] [Model][openRepository] Opened repository: /workspace/boilerplate-mean-variance-standard-deviation-calculator
+2024-11-13 02:59:57.331 [info] > git config --get commit.template [5ms]
+2024-11-13 02:59:57.331 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-13 02:59:57.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-13 02:59:57.331 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-mean-variance-standard-deviation-calculator/.git/refs/remotes/origin/main'
+2024-11-13 02:59:57.331 [info] > git rev-parse --show-toplevel [6ms]
+2024-11-13 02:59:57.331 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-13 02:59:57.331 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-13 02:59:57.331 [info] > git status -z -uall [8ms]
+2024-11-13 02:59:57.331 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-13 02:59:57.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-11-13 02:59:57.331 [info] > git config --get commit.template [6ms]
+2024-11-13 02:59:57.331 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-11-13 02:59:57.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-11-13 02:59:57.331 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-11-13 02:59:57.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-11-13 02:59:57.331 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-mean-variance-standard-deviation-calculator/.git/refs/remotes/origin/main'
+2024-11-13 02:59:57.331 [info] > git diff --name-status -z --diff-filter=ADMR 126bb94a8f8f4535ddcfe5452e188a4625062059...refs/remotes/origin/main [6ms]
+2024-11-13 02:59:57.333 [info] > git rev-parse refs/remotes/origin/main [207ms]
+2024-11-13 02:59:57.347 [info] > git status -z -uall [9ms]
+2024-11-13 02:59:57.352 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-11-13 02:59:57.665 [info] > git show --textconv :test_module.py [7ms]
+2024-11-13 02:59:57.669 [info] > git ls-files --stage -- /workspace/boilerplate-mean-variance-standard-deviation-calculator/test_module.py [5ms]
+2024-11-13 02:59:57.679 [info] > git cat-file -s 14f4dc8f4aabd0458dc069fe2a488da3e19de8f1 [5ms]
+2024-11-13 02:59:57.854 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-13 03:00:00.077 [info] > git config --local branch.main.github-pr-owner-number [3ms]
+2024-11-13 03:00:00.077 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-13 03:00:00.571 [info] > git show --textconv :main.py [6ms]
+2024-11-13 03:00:00.573 [info] > git ls-files --stage -- /workspace/boilerplate-mean-variance-standard-deviation-calculator/main.py [2ms]
+2024-11-13 03:00:00.580 [info] > git cat-file -s cbe86e5a6413a857e63930ff93f6d8d1574e7ce9 [2ms]
+2024-11-13 03:00:02.805 [info] > git show --textconv :mean_var_std.py [4ms]
+2024-11-13 03:00:02.807 [info] > git ls-files --stage -- /workspace/boilerplate-mean-variance-standard-deviation-calculator/mean_var_std.py [2ms]
+2024-11-13 03:00:02.813 [info] > git cat-file -s f9d4d6deef5ea7444ebd6bcd58a3422b7e3d9fcf [3ms]
+2024-11-13 03:00:05.113 [info] > git check-ignore -v -z --stdin [2ms]

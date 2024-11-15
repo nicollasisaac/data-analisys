@@ -1,0 +1,30 @@
+[420ns] Shutting down all processes 
+[242.2µs] Terminating process supervisor with PID 34 (state: S, cmdlind: [supervisor run] <nil>). 
+[15.005336016s] Terminating process didn't finish, but had to be force killed 
+[15.005675856s] Terminating process node with PID 384 (state: S, cmdlind: [/ide/node /ide/extensions/redhat.vscode-yaml/dist/languageserver.js --node-ipc --clientProcessId=221] <nil>). 
+[15.005726066s] Terminating process node with PID 255 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20241115T013403] <nil>). 
+[15.005757156s] Terminating process didn't finish, but had to be force killed 
+[15.005761216s] Terminating process node with PID 232 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[15.005676786s] Terminating process node with PID 221 (state: S, cmdlind: [/ide/node --dns-result-order=ipv4first /ide/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[15.005826316s] Terminating process didn't finish, but had to be force killed 
+[15.005834996s] Terminating process didn't finish, but had to be force killed 
+[15.005839116s] Terminating process didn't finish, but had to be force killed 
+[15.005764716s] Terminating process bash with PID 81 (state: S, cmdlind: [/bin/bash] <nil>). 
+[15.005884666s] Terminating process didn't finish, but had to be force killed 
+[15.005933326s] Terminating process node with PID 69 (state: S, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[15.005850646s] Terminating process bash with PID 266 (state: S, cmdlind: [/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh] <nil>). 
+[15.006019206s] Terminating process didn't finish, but had to be force killed 
+[15.006013876s] Terminating process didn't finish, but had to be force killed 
+[15.006355116s] Terminating process bash with PID 266 (state: R, cmdlind: [] <nil>). 
+[15.006374746s] Terminating process didn't finish, but had to be force killed 
+[15.006423976s] Terminating process bash with PID 81 (state: R, cmdlind: [] <nil>). 
+[15.006441656s] Terminating process didn't finish, but had to be force killed 
+[15.006708336s] Terminating process bash with PID 266 (state: R, cmdlind: [] <nil>). 
+[15.006723876s] Terminating process didn't finish, but had to be force killed 
+[15.006756526s] Terminating process bash with PID 81 (state: R, cmdlind: [] <nil>). 
+[15.006769706s] Terminating process didn't finish, but had to be force killed 
+[15.006910146s] Couldn't obtain process information for PID 81. 
+[15.011893645s] Couldn't obtain process information for PID 255. 
+[15.014705204s] Couldn't obtain process information for PID 384. 
+[15.025151922s] Terminating process node with PID 232 (state: X, cmdlind: [] open /proc/232/cmdline: no such file or directory). 
+[15.505321058s] Finished shutting down all processes. 

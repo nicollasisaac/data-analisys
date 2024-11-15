@@ -1,0 +1,21 @@
+[260ns] Shutting down all processes 
+[201.48µs] Terminating process supervisor with PID 36 (state: S, cmdlind: [supervisor run] <nil>). 
+[15.001941817s] Terminating process didn't finish, but had to be force killed 
+[15.004797176s] Terminating process node with PID 821 (state: S, cmdlind: [/ide/node /ide/extensions/redhat.vscode-yaml/dist/languageserver.js --node-ipc --clientProcessId=765] <nil>). 
+[15.004882966s] Terminating process bash with PID 83 (state: S, cmdlind: [/bin/bash] <nil>). 
+[15.004921916s] Terminating process node with PID 72 (state: S, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[15.004936486s] Terminating process didn't finish, but had to be force killed 
+[15.004963896s] Terminating process node with PID 284 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20241113T141346] <nil>). 
+[15.005005476s] Terminating process didn't finish, but had to be force killed 
+[15.005017366s] Terminating process didn't finish, but had to be force killed 
+[15.005083046s] Terminating process didn't finish, but had to be force killed 
+[15.005112106s] Terminating process bash with PID 299 (state: S, cmdlind: [/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh] <nil>). 
+[15.005157186s] Terminating process node with PID 765 (state: S, cmdlind: [/ide/node --dns-result-order=ipv4first /ide/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[15.005161106s] Terminating process didn't finish, but had to be force killed 
+[15.005303326s] Terminating process didn't finish, but had to be force killed 
+[15.005816026s] Terminating process bash with PID 83 (state: R, cmdlind: [] <nil>). 
+[15.005836896s] Terminating process didn't finish, but had to be force killed 
+[15.007765976s] Couldn't obtain process information for PID 83. 
+[15.034126954s] Couldn't obtain process information for PID 72. 
+[15.034313244s] Couldn't obtain process information for PID 765. 
+[15.502461345s] Finished shutting down all processes. 

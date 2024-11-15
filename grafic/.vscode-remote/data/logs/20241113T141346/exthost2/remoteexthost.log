@@ -1,0 +1,29 @@
+2024-11-13 14:23:16.316 [info] Extension host with pid 765 started
+2024-11-13 14:23:16.317 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/5b8ddb3f/vscode.lock'
+2024-11-13 14:23:16.320 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/5b8ddb3f/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-13 14:23:16.322 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/5b8ddb3f/vscode.lock': The lock does not look stale, elapsed: 605 ms, giving up.
+2024-11-13 14:23:16.331 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/5b8ddb3f-1/vscode.lock': Lock acquired.
+2024-11-13 14:23:16.656 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: false, activationEvent: 'onAuthenticationRequest:gitpod'
+2024-11-13 14:23:16.657 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-13 14:23:17.325 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-13 14:23:17.549 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-13 14:23:17.549 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-13 14:23:17.978 [info] Eager extensions activated
+2024-11-13 14:23:17.979 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 14:23:17.979 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 14:23:17.979 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-11-13 14:23:18.248 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2024-11-13 14:23:18.366 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 14:23:19.001 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-11-13 14:23:19.002 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-11-13 14:23:20.651 [error] Error: EEXIST: file already exists, open '/tmp/tmp_vsix_65004081c051c29d219eda6b12e164a3'
+2024-11-13 14:23:51.659 [error] Error: Request timeout after 30s
+	at ClientRequest.<anonymous> (/ide/extensions/gitpod-web/out/extension.js:2:1430764)
+	at Object.onceWrapper (node:events:633:28)
+	at ClientRequest.emit (node:events:519:28)
+	at TLSSocket.emitRequestTimeout (node:_http_client:849:9)
+	at Object.onceWrapper (node:events:633:28)
+	at TLSSocket.emit (node:events:531:35)
+	at Socket._onTimeout (node:net:591:8)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7)

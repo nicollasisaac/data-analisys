@@ -1,0 +1,29 @@
+2024-11-13 14:13:46.950 [info] 
+
+
+
+
+2024-11-13 14:13:46.976 [info] Extension host agent started.
+2024-11-13 14:13:47.052 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-11-13 14:13:47.053 [info] Extension 'github.vscode-pull-request-github' v0.100.1 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-11-13 14:13:52.011 [info] [192.168.179.202][c68bb151][ManagementConnection] New connection established.
+2024-11-13 14:13:52.930 [info] [192.168.155.75][ce835e04][ExtensionHostConnection] New connection established.
+2024-11-13 14:13:52.989 [info] [192.168.155.75][ce835e04][ExtensionHostConnection] <218> Launched Extension Host Process.
+2024-11-13 14:21:25.098 [info] [192.168.179.202][c68bb151][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-13 14:23:13.509 [info] [192.168.194.137][1ef4c05b][ManagementConnection] New connection established.
+2024-11-13 14:23:14.192 [info] [192.168.179.202][009d75ae][ExtensionHostConnection] New connection established.
+2024-11-13 14:23:14.202 [info] [192.168.179.202][009d75ae][ExtensionHostConnection] <765> Launched Extension Host Process.
+2024-11-13 14:23:26.853 [error] TypeError: Cannot read properties of undefined (reading 'j')
+    at Y (/ide/node_modules/google-protobuf/google-protobuf.js:119:395)
+    at X (/ide/node_modules/google-protobuf/google-protobuf.js:117:347)
+    at W.U (/ide/node_modules/google-protobuf/google-protobuf.js:127:457)
+    at jspb.Map.serializeBinary (/ide/node_modules/@gitpod/ide-metrics-api-grpcweb/lib/index.js:1:219531)
+    at proto.ide_metrics_api.ReportErrorRequest.serializeBinaryToWriter (/ide/node_modules/@gitpod/ide-metrics-api-grpcweb/lib/idemetrics_pb.js:1342:7)
+    at proto.ide_metrics_api.ReportErrorRequest.serializeBinary (/ide/node_modules/@gitpod/ide-metrics-api-grpcweb/lib/index.js:1:250845)
+    at t.frameRequest (/ide/node_modules/@improbable-eng/grpc-web/dist/grpc-web-client.js:1:24539)
+    at e.send (/ide/node_modules/@improbable-eng/grpc-web/dist/grpc-web-client.js:1:12717)
+    at t.unary (/ide/node_modules/@improbable-eng/grpc-web/dist/grpc-web-client.js:1:24339)
+    at MetricsServiceClient.reportError (/ide/node_modules/@gitpod/ide-metrics-api-grpcweb/lib/idemetrics_pb_service.js:153:21)
+    at bP.m (file:///ide/out/server-main.js:177:7306)
+2024-11-13 14:24:02.826 [info] [192.168.194.137][1ef4c05b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-13 14:28:13.665 [info] [192.168.155.75][ce835e04][ExtensionHostConnection] <218> Extension Host Process exited with code: 0, signal: null.
